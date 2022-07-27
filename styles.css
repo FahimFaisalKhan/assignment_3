@@ -1,0 +1,9 @@
+.btn-outline-sky {
+  color: #289bde;
+  border-color: #289bde;
+}
+.btn-outline-sky:hover {
+  color: #fff;
+  background-color: #289bde;
+  border-color: #289bde;
+}
