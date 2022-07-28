@@ -9,10 +9,15 @@
   background-color: #289bde;
   border-color: #289bde;
 }
-.btn-primary {
+.btn-primary-light {
   color: rgb(255, 255, 255);
   background-color: #289bde;
   border-color: #289bde;
+}
+.btn-primary-light:hover {
+  color: #fff;
+  background-color: #2983b8;
+  border-color: #2983b8;
 }
 .text-secondary-light {
   color: #4a4a4a !important;
@@ -44,22 +49,22 @@
     height: 32vh !important;
   }
 }
-@media screen and (max-height: 668px) {
+@media screen and (max-width: 576px) and (max-height: 668px) {
   .vh-40 {
     height: 36vh !important;
   }
 }
-@media screen and (max-height: 605px) {
+@media screen and (max-width: 576px) and (max-height: 605px) {
   .vh-40 {
     height: 39vh !important;
   }
 }
-@media screen and (max-height: 567px) {
+@media screen and (max-width: 576px) and (max-height: 567px) {
   .vh-40 {
     height: 40vh !important;
   }
 }
-@media screen and (max-height: 555px) {
+@media screen and (max-width: 576px) and (max-height: 555px) {
   .vh-40 {
     height: 43vh !important;
   }
