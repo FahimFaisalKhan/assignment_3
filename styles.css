@@ -61,38 +61,50 @@
   .abs_center {
     top: 35%;
   }
+}
+@media screen and (max-width: 576px) and (max-height: 1185px) {
   .vh-40 {
-    height: 40vh !important;
+    height: 25vh !important;
   }
 }
-@media screen and (max-width: 576px) and (max-height: 843px) {
+@media screen and (max-width: 576px) and (max-height: 900px) {
   .vh-40 {
-    height: 30vh !important;
+    height: 27vh !important;
   }
 }
-@media screen and (max-width: 576px) and (max-height: 733px) {
+@media screen and (max-width: 576px) and (max-height: 850px) {
   .vh-40 {
-    height: 32vh !important;
+    height: 33vh !important;
   }
 }
-@media screen and (max-width: 576px) and (max-height: 668px) {
+@media screen and (max-width: 576px) and (max-height: 760px) {
   .vh-40 {
-    height: 36vh !important;
+    height: 34vh !important;
   }
 }
-@media screen and (max-width: 576px) and (max-height: 605px) {
+@media screen and (max-width: 576px) and (max-height: 722px) {
   .vh-40 {
-    height: 39vh !important;
+    height: 37vh !important;
   }
 }
-@media screen and (max-width: 576px) and (max-height: 567px) {
+@media screen and (max-width: 576px) and (max-height: 660px) {
   .vh-40 {
-    height: 40vh !important;
+    height: 41vh !important;
   }
 }
-@media screen and (max-width: 576px) and (max-height: 555px) {
+@media screen and (max-width: 576px) and (max-height: 612px) {
   .vh-40 {
     height: 43vh !important;
+  }
+}
+@media screen and (max-width: 576px) and (max-height: 570px) {
+  .vh-40 {
+    height: 46vh !important;
+  }
+}
+@media screen and (max-width: 576px) and (max-height: 530px) {
+  .vh-40 {
+    height: 55vh !important;
   }
 }
 .blacken {
