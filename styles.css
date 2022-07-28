@@ -32,6 +32,20 @@
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
+.accordion-button {
+  color: #4a4a4a;
+  background-color: rgba(40, 155, 222, 0.1);
+}
+.accordion-button:not(.collapsed) {
+  color: #4a4a4a;
+  background-color: rgba(40, 155, 222, 0.1);
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(images/down-arrow-svgrepo-com.svg);
+  transform: rotate(-180deg);
+}
 
 /* Positioning utility classes  */
 
