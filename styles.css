@@ -1,3 +1,5 @@
+/* Color Utility classes */
+
 .btn-outline-sky {
   color: #289bde;
   border-color: #289bde;
@@ -6,4 +8,62 @@
   color: #fff;
   background-color: #289bde;
   border-color: #289bde;
+}
+.btn-primary {
+  color: rgb(255, 255, 255);
+  background-color: #289bde;
+  border-color: #289bde;
+}
+.text-secondary-light {
+  color: #4a4a4a !important;
+}
+
+/* Positioning utility classes  */
+
+.abs_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 576px) {
+  .abs_center {
+    top: 35%;
+  }
+  .vh-40 {
+    height: 40vh !important;
+  }
+}
+@media screen and (max-width: 576px) and (max-height: 843px) {
+  .vh-40 {
+    height: 30vh !important;
+  }
+}
+@media screen and (max-width: 576px) and (max-height: 733px) {
+  .vh-40 {
+    height: 32vh !important;
+  }
+}
+@media screen and (max-height: 668px) {
+  .vh-40 {
+    height: 36vh !important;
+  }
+}
+@media screen and (max-height: 605px) {
+  .vh-40 {
+    height: 39vh !important;
+  }
+}
+@media screen and (max-height: 567px) {
+  .vh-40 {
+    height: 40vh !important;
+  }
+}
+@media screen and (max-height: 555px) {
+  .vh-40 {
+    height: 43vh !important;
+  }
+}
+.blacken {
+  filter: brightness(50%);
 }
