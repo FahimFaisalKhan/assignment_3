@@ -1,5 +1,4 @@
 /* Color Utility classes */
-
 .btn-outline-sky {
   color: #289bde;
   border-color: #289bde;
@@ -45,14 +44,13 @@
   box-shadow: none;
   border: none;
 }
-
+/* accordion button-arrow-image */
 .accordion-button:not(.collapsed)::after {
   background-image: url(images/down-arrow-svgrepo-com.svg);
   transform: rotate(-180deg);
 }
 
 /* Positioning utility classes  */
-
 .abs_center {
   position: absolute;
   top: 50%;
