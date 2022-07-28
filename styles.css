@@ -44,6 +44,10 @@
   box-shadow: none;
   border: none;
 }
+.form-check-input:checked {
+  background-color: #289bde;
+  border-color: #289bde;
+}
 /* accordion button-arrow-image */
 .accordion-button:not(.collapsed)::after {
   background-image: url(images/down-arrow-svgrepo-com.svg);
